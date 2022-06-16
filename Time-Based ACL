@@ -1,0 +1,7 @@
+# Time-Based ACL
+
+In case you do not want access list entries to take effect as soon as they are applied, you should consider using time-based ACLs.
+
+Time-based ACLs enable you to apply firewall rules based on particular times of the day, the day of the week, or the day of the month. Thus, you can make a granular enforcement of permit or deny conditions you have set to control traffic into and out of your network. In other words, they offer more control over permitting or denying access to resources.
+
+For example, you may wish to allow users to access the Internet during lunch, but not during regular business hours. In that case, time-based ACLs will enable you to make the precise enforcement of this kind of policy. You can also control logging messages in a sense you can define when should ACL entries log traffic and for example send the log to your server.
